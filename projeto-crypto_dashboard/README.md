@@ -1,16 +1,53 @@
-# React + Vite
+# 🪙 Crypto Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Sobre o Projeto
+Um dashboard financeiro interativo focado no acompanhamento de criptomoedas, desenvolvido para simular uma carteira real. O projeto apresenta dados complexos de forma clara, utilizando gráficos dinâmicos e consumo de dados do mercado financeiro em tempo real.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
+* **Consumo de API Real:** Integração com a API pública da Binance para exibir o preço atual do Bitcoin (BTC) em Reais (BRL) e o histórico de variação.
+* **Gráficos Dinâmicos e Reativos:** Visualização interativa com ApexCharts, incluindo filtros de período (1 Dia, 1 Semana, 1 Mês, 1 Ano) e mudança automática de cores (verde/vermelho) baseada no desempenho da moeda.
+* **Gestão de Carteira:** Cálculo automatizado do saldo total (Moeda Fiat + Criptomoedas) utilizando cotações em tempo real e formatação nativa de moedas (`Intl.NumberFormat`).
+* **Dashboard Responsivo:** Layout fluido que se adapta perfeitamente a dispositivos móveis (com menu lateral em gaveta) e desktops, garantindo a melhor experiência de uso em qualquer tela.
+* **Navegação SPA:** Transições rápidas entre os painéis (Central, Transações, Suporte) com feedback visual ativo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
+* **[React 19](https://react.dev/)**
+* **[Vite](https://vitejs.dev/)**
+* **[Chakra UI v3](https://chakra-ui.com/)** (Arquitetura de componentes customizados)
+* **[React Router DOM](https://reactrouter.com/)**
+* **[ApexCharts](https://apexcharts.com/)** (Renderização de dados financeiros)
+* **[React Icons](https://react-icons.github.io/react-icons/)**
 
-## React Compiler
+## 🚀 Como executar o projeto
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Pré-requisitos
+É necessário ter o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/en/) instalados na sua máquina.
 
-## Expanding the ESLint configuration
+### Passo a Passo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone este repositório:
+```bash
+git clone https://github.com/VitorOnRails/crypto.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd crypto/projeto-crypto_dashboard
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute a aplicação em modo de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+5. O aplicativo será aberto no seu navegador padrão no endereço:
+
+http://localhost:5173
