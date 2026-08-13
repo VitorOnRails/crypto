@@ -33,7 +33,7 @@ git clone https://github.com/VitorOnRails/crypto.git
 2. Acesse a pasta do projeto:
 
 ```bash
-cd crypto/projeto-crypto_dashboard
+cd crypto/project-crypto
 ```
 
 3. Instale as dependências:
